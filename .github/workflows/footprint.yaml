@@ -28,4 +28,4 @@ jobs:
           # Stage the file, commit and push
           git add .
           git commit -m "every day @ 9-17"
-          git push origin master
+          git push origin main

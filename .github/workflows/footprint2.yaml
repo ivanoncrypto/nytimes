@@ -2,7 +2,6 @@ name: Footprint2
 on:
   schedule:
     - cron: '0 2-5 * * 2-5'
-  push:
 
 jobs:
   timeline:
@@ -28,5 +27,5 @@ jobs:
           # Stage the file, commit and push
           git add .
           git commit -m "mon to fri @ noon"
-          git push origin master
+          git push origin main
   
